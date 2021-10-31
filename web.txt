@@ -1,0 +1,5 @@
+How does the internet work? What happens when you click on a link?
+
+The internet is all about communication. Computers (clients) communicate with computers (servers) through fiber optic cable with routers in-between. Each computer and router has its own IP address, which is a string of numbers and periods, which is how they are able to locate each other and transmit data. Since humans find it easier to remember words, they created the DNS (Domain Name System) to translate IP addresses into words. This is why websites have names like "google.com".
+
+When you click on a link, you're sending a request to a server. When the server receives your request, it processes it and sends a response (eg. HTML). You web browser then renders the HTML and you see the website you requested. Some other response types are JS, CSS, PNG and JSON.

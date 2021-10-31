@@ -1,0 +1,71 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+form > div {
+	display: flex;
+
+}
+
+#buttons {
+	display: flex;
+	flex-direction: column;
+
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.yellowBtn {
+	background-color: yellow;
+	font-size: 20px;
+	border: none;
+	padding: 10px 10px;
+	margin: 3px;
+	border-radius: 20px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+	
+}
+
+#nbhd {
+	text-align: center;
+}

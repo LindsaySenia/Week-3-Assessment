@@ -1,0 +1,1 @@
+let restaurants = ['Park Row - Old Gotham', 'Gotham City Diner', ]
