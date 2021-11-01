@@ -24,7 +24,9 @@ const interestBtn = document.querySelector('button#suggest')
 
 function interestThanks(event) {
     event.preventDefault();
+    let inputField = document.querySelector('input');
     alert('Thank you for your suggestion!')
+    inputField.value = ''
 }
 
 interestBtn.addEventListener('click', interestThanks)
